@@ -1,3 +1,6 @@
+# avoid venv files from here
+assignment33/python/.venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
