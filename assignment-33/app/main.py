@@ -4,6 +4,6 @@ from client.google_client import get_response
 app = FastAPI()
 
 
-@app.get("/message2/")
-def read_root():
-    return get_response()    
+@app.get("/get_llm_response/{message}")
+def read_root(message: str):
+    return get_response(message)    
